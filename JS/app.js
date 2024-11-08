@@ -1,4 +1,4 @@
-const producto = prompt("Ingresa el nombre del producto para ver el precio o escribe 'SALIR' para finalizar.");
+let producto = prompt("Ingresa el nombre del producto para ver el precio o escribe 'SALIR' para finalizar.");
 
 debugger;
 while (producto !== "SALIR") {
