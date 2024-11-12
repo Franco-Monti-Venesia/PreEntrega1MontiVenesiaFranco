@@ -1,29 +1,29 @@
-let producto = prompt("Ingresa el nombre del producto para ver el precio o escribe 'SALIR' para finalizar.");
+let producto = prompt("Ingresa el nombre del producto para ver el precio o escribe 'salir' para finalizar.").toLowerCase();
 
 debugger;
-while (producto !== "SALIR") {
+while (producto !== "salir") {
     switch (producto) {
-        case "Tallarines":
+        case "tallarines":
             alert("El precio por kg de los Tallarines es $3700.");
             break;
-        case "Ñoquis":
+        case "ñoquis":
             alert("El precio por kg de los Ñoquis es $3800.");
             break;
-        case "Ravioles":
+        case "ravioles":
             alert("El precio por kg de los Ravioles es $7500.");
             break;
-        case "Tirabuzones":
+        case "tirabuzones":
             alert("El precio por kg de los Tirabuzones es $3700.");
             break;
-        case "Sorrentinos":
+        case "sorrentinos":
             alert("El precio por kg de los Sorrentinos es $8500.");
             break;
-        case "Canelones":
+        case "canelones":
             alert("El precio por kg de los Canelones es $8500.");
             break;
         default:
             alert("No tenemos ese producto en el carrito.");
             break;
     }
-    producto = prompt("Ingresa otro producto para ver el precio o escribe 'SALIR' para finalizar.");
+    producto = prompt("Ingresa otro producto para ver el precio o escribe 'SALIR' para finalizar.").toLowerCase();
 }
